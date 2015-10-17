@@ -90,6 +90,10 @@
   align: center;
 }
 
+h4 { 
+  color: black;
+}
+
 h3 {
   color: white;
 }
@@ -146,6 +150,7 @@ h6 {
 /* R4C
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #R4C {
+  background-image: 
   background-color: white;
   background-size: cover;
 }
