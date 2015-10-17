@@ -152,11 +152,15 @@ h6 {
 
 .r4c-heading {
   margin-bottom: .3rem;
-  color: #00AEEE
+  h4: black;
+  text-align: center;
 }
+
 .r4c-description {
   font-weight: 300;
   color: #00AEEE
+  p: black;
+  text-align: center;
 }
 
 
@@ -197,6 +201,22 @@ h6 {
   background-size: cover;
   color: white;
 }
+
+
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contact {
+  background-color: #black;
+  max-height: 400px;
+}
+.contact-heading{
+  font-color: #000000;
+}
+.contact-text h2 {
+  margin: 1rem 0px 0.5rem;
+}
+
+
 
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
