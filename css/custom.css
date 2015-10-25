@@ -95,6 +95,7 @@ h5 {
 }
 
 h4 { 
+  text-align: center;
   color: black;
 }
 
@@ -118,7 +119,9 @@ h2{
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-color: #black;
+  background-color: black;
+  background-size: cover;
+  color: white;
 }
 .hero-heading{
   font-color: #000000;
@@ -127,6 +130,11 @@ h2{
 h4 {
     color: #000000;
   }
+
+h5{
+  color: white;
+  text-align: center;
+}
 
 h6 {
     color: #000000;
@@ -207,14 +215,6 @@ h6 {
   color: #fff;
   width: 100%;
   text-indent: right;
-}
-  
-/* hero
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero {
-  background: black;
-  background-size: cover;
-  color: white;
 }
 
 
