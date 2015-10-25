@@ -82,7 +82,7 @@
   background: #282C35;
   background-size: cover;
   color: #fff;
-  margin-top: 
+
 }
 .top .heading {
   background: #282C35
@@ -90,12 +90,16 @@
   align: center;
 }
 
+h5 { 
+  color: white;
+}
+
 h4 { 
   color: black;
 }
 
 h3 {
-  color: white;
+  color: black;
 }
 
 h2{
@@ -130,10 +134,15 @@ h6 {
 
 /* SEAMKet
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#seamket {
-  background-color: white;
+.seamket {
+  background-color: #F8F4F4;
   background-size: cover;
 }
+.seamket.container{
+  background-color: black;
+  background-size: cover;
+}
+
 .seamket-multiplier {
   margin-bottom: .5rem;
   color: #51B054;
@@ -197,6 +206,7 @@ h6 {
   background-size: cover;
   color: #fff;
   width: 100%;
+  text-indent: right;
 }
   
 /* hero
@@ -226,7 +236,7 @@ h6 {
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/bg-test.jpg');
+  background-image: url('../images/bg-test-rz.png');
   background-size: cover;
   color: #fff;
 }
