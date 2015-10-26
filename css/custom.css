@@ -429,6 +429,10 @@ footer {
   text-align: center;
 }
 
+.footer-text h5{
+  text-align:center;
+}
+
 .footer-text h2 {
   margin: 1rem 0 0.5rem;
 }
@@ -436,6 +440,7 @@ footer {
 .footer-text p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  text-align:center;
 } 
 
 .footer-text a {
