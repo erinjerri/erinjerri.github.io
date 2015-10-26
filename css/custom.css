@@ -155,19 +155,24 @@ h6 {
 .seamket.container{
   background-color: black;
   background-size: cover;
+  text-align: center;
 }
 
 .seamket-multiplier {
   margin-bottom: .5rem;
   color: #51B054;
+  text-align: center;
 }
 .seamket-heading {
   margin-bottom: .3rem;
-  color: #00AEEE
+  color: #00AEEE;
+  text-align: center;
 }
+
 .seamket-description {
   font-weight: 300;
-  color: #00AEEE
+  color: #00AEEE;
+  text-align: center;
 }
 
 /* R4C
