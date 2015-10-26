@@ -106,7 +106,7 @@ h4 {
 }
 
 h3 {
-  color: white;
+  color: black;
 }
 
 h2{
@@ -143,7 +143,7 @@ h5{
 }
 
 h6 {
-    color: white;
+    color: #000000;
   }
 
 /* SEAMKet
@@ -163,6 +163,7 @@ h6 {
   color: #51B054;
   text-align: center;
 }
+
 .seamket-heading {
   margin-bottom: .3rem;
   color: #00AEEE;
@@ -400,7 +401,7 @@ h6 {
     padding: 20rem 0 19rem;
   }
   .hero {
-    padding: 22rem 0;
+    padding: 30rem 0;
   }
   .hero-heading {
     font-size: 3.0rem;
