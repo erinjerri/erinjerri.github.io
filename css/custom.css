@@ -10,6 +10,16 @@ a {
   border-radius: 100px;
 }
 
+/* hover icons */
+
+a:hover {
+  color: #0074D9;
+}
+
+icon:hover{
+  fill: #282C35;
+}
+
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .nav {
@@ -82,6 +92,17 @@ a {
   margin-bottom: 1.2rem;
 }
 
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about {
+  background-image: url('../images/about.jpg');
+  background-size: cover;
+  color: #fff;
+  width: 100%;
+  text-indent: right;
+}
+
+
 /* Top
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top {
@@ -120,130 +141,6 @@ h2{
 .wrapper {
   margin: 3em auto;
 }
-
-
-/* Hero
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hero {
-  background-color: black;
-  background-size: cover;
-  color: white;
-}
-.hero-heading{
-  font-color: #000000;
-}
-
-h4 {
-    color: #000000;
-  }
-
-h5{
-  color: white;
-  text-align: center;
-}
-
-h6 {
-    color: #000000;
-  }
-
-/* SEAMKet
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.seamket {
-  background-color: #F8F4F4;
-  background-size: cover;
-}
-.seamket.container{
-  background-color: black;
-  background-size: cover;
-  text-align: center;
-}
-
-.seamket-multiplier {
-  margin-bottom: .5rem;
-  color: #51B054;
-  text-align: center;
-}
-
-.seamket-heading {
-  margin-bottom: .3rem;
-  color: #00AEEE;
-  text-align: center;
-}
-
-.seamket-description {
-  font-weight: 300;
-  color: #00AEEE;
-  text-align: center;
-}
-
-/* R4C
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#R4C {
-  background-image: 
-  background-color: white;
-  background-size: cover;
-}
-
-.r4c-heading {
-  margin-bottom: .3rem;
-  h4: black;
-  text-align: center;
-}
-
-.r4c-description {
-  font-weight: 300;
-  color: #00AEEE
-  p: black;
-  text-align: center;
-}
-
-
-
-/* Values
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-image: url('../images/bg-test-rz.png');
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 1rem;
-}
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #11DFC7;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  opacity: .8;
-  font-weight: 300;
-}
-
-/* about
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.about {
-  background-image: url('../images/about.jpg');
-  background-size: cover;
-  color: #fff;
-  width: 100%;
-  text-indent: right;
-}
-
-
-/* Contact
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.contact {
-  background-color: #black;
-  max-height: 400px;
-}
-.contact-heading{
-  font-color: #000000;
-}
-.contact-text h2 {
-  margin: 1rem 0px 0.5rem;
-}
-
-
 
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -321,6 +218,81 @@ h6 {
   .categories {
     padding: 15rem 0 8rem;
   }
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-color: black;
+  background-size: cover;
+  color: white;
+}
+.hero-heading{
+  font-color: #000000;
+}
+
+h4 {
+    color: #000000;
+  }
+
+h5{
+  color: white;
+  text-align: center;
+}
+
+h6 {
+    color: #000000;
+  }
+
+/* SEAMKet
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.seamket {
+  background-color: #F8F4F4;
+  background-size: cover;
+}
+.seamket.container{
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+}
+
+.seamket-multiplier {
+  margin-bottom: .5rem;
+  color: #51B054;
+  text-align: center;
+}
+
+.seamket-heading {
+  margin-bottom: .3rem;
+  color: #00AEEE;
+  text-align: center;
+}
+
+.seamket-description {
+  font-weight: 300;
+  color: #00AEEE;
+  text-align: center;
+}
+
+/* R4C
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#R4C {
+  background-image: 
+  background-color: white;
+  background-size: cover;
+}
+
+.r4c-heading {
+  margin-bottom: .3rem;
+  h4: black;
+  text-align: center;
+}
+
+.r4c-description {
+  font-weight: 300;
+  color: #00AEEE
+  p: black;
+  text-align: center;
 }
 
 /* ul tabs */
@@ -460,13 +432,4 @@ footer {
   height: 2rem;
   margin: -1.5rem auto 0;
   width: 12.5rem;
-}
-/* hover icons */
-
-a:hover {
-  color: #0074D9;
-}
-
-icon:hover{
-  fill: #282C35;
 }
