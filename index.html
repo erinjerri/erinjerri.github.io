@@ -1,221 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Erin Jerri Pangilinan's Website</title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/style.css">
+		<!-- skin -->
+		<link rel="stylesheet" href="skin/default.css">
+    <!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="img/ps-ico-51.png">
+<!-- MozVR a-Frame-->
+<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Erin Pangilinan</title>
+    </head>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="Erin Jerri Pangilinan" content="">
+    <body>
+		<section id="header" class="appear"></section>
+		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-bars color-white"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">@erinjerri
+					</a></h1>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#section-about">About</a></li>
+						<li><a href="#section-works">Work</a></li>
+            <li><a href="#section-works">Media</a></li>
+						<li><a href="#section-contact">Contact</a></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</div>
 
+		<section class="featured">
+			<div class="container">
+				<div class="row mar-bot40">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="align-center">
+              <i class="fa fa-simplybuilt fa-5x mar-bot20 fa-rotate-180"></i>
+							<h2 class="slogan">Enter Erin's ReMixed Reality</h2>
+              <p>
+              "Step into my augmented and virtual world<p>
+              Where my dreams are truly real<p>
+              Where master devs and artists and I build up our skills as we<p>
+              Play every day for the rapture."<p>
+              I attempt to master each element to engage and activate the user, for in AI, AR, VR, anything is possible.<p>
+            </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<!-- services -->
+		<section id="section-services" class="section pad-bot30 bg-white">
+		<div class="container">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+			<div class="row mar-bot40">
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-comment fa-5x mar-bot20 style="color:green"></i>
+						<h4 class="text-bold">Code</h4>
+						<p>I program languages to express and engage thought.
+						</p>
+					</div>
+				</div>
 
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<img src="img/spraycan.png"></img>
+						<h4 class="text-bold">Art</h4>
+						<p>I design for beautiful form and function.</p>
+					</div>
+				</div>
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <link rel="icon" type="image/png" href="images/ps-ico-51.png">
+				<div class="col-lg-4" >
+					<div class="align-center">
+						<i class="fa fa-bar-chart fa-5x mar-bot20"></i>
+						<h4 class="text-bold">Signal</h4>
+						<p> I create to experience feel from what we touch and hear.</p>
+					</div>
+				</div>
 
-<!--JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			</div>
 
-  ga('create', 'UA-69262943-1', 'auto');
-  ga('send', 'pageview');
+		</div>
+		</section>
 
-</script>
+		<!-- spacer section:testimonial -->
+		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-12">
+							<div class="align-center">
+        						<div class="testimonial pad-top40 pad-bot40 clearfix">
+        							<h5>
+        								"Behind every data point and pixel is a human being." -Self
+        							</h5>
+        							<br/>
+        							<span class="author">&mdash; What is Reality?</span>
+        						</div>
 
-<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("74cf9b55eda9b538e993ebed1c22e4de");</script><!-- end Mixpanel -->
+							</div>
+					</div>
 
-<script type="text/javascript">
-    mixpanel.track_links("#nav a", "click nav link", {
-        "referrer": document.referrer
-    });
-</script>
+			</div>
+		</div>
+		</section>
 
-   <script>
-        mixpanel.track(“Page Loaded”);
-   </script>
+		<!-- about -->
+		<section id="section-about" class="section appear clearfix">
+		<div class="container">
 
-</head>
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">About Me</h2>
+							<p>I am a hybrid lifelong artist, computational designer, engineer, and data creative.</p>
+              <img src="img/erin-headshot-200-300.png" alt="" /></figure>
+              <div class="team-detail">
+                <h4>Erin Pangilinan</h4>
+                <span>@erinjerri</span>
+						</div>
+					</div>
+				</div>
 
-<body>
+		</div>
+		</div>
+		</div>
+		</section>
+		<!-- /about -->
 
-  <!-- Navigation
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <nav class="nav">
-  <ul class="nav__list">
-
-    <li class="nav__list-item">
-      <a href="http://www.erinjerri.com">Home</a>
-    </li>
-
-    <li class="nav__list-item">
-      <a href="about.html">About</a>
-
-    <li class="nav__list-item  nav__list-item--has-dropdown">
-      <a href="#">Code</a>
-
-      <ul class="nav__list  nav__dropdown">
-        <li class="nav__list-item">
-
-          <a href="hillary.html">Hillary</a>
-        </li>
-        </ul>
-
-  <li class="nav__list-item  nav__list-item--has-dropdown">
-      <a href="#">Design</a>
-
-      <ul class="nav__list  nav__dropdown">
-        <li class="nav__list-item">
-          <a href="seamket.html">SEAMKet</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="r4c.html">Ro</a>
-        <li class="nav__list-item">
-          <a href="stacsv.html">STAC-SV</a>
-        </li>
-        <li class="nav__list-item">
-          <a href="kaya.html">KAYA</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-    <div class="section categories">
-    <div class="container">
-      <h1 class="top-heading">Hello, I'm Erin.</h1>
-      <p>
-      <h5 class="top-description">This portfolio shows how I like to create ideas. </p>
-      </h5>
-      <p><h5>I like to solve design and code problems.</h5></p>
-      </div>
-    </div>
-
-
-  <div class="section hero">
-    <div class="container">
-    <div class="row">
-      <h5 class="section-heading">Hillary campaign’s mobile fundraising needs a makeover.</center></h5>
-         <h5 class="section-heading">A New Way To Give: Native</h5>
-          <center><img src="images/hfa-show-t-rz-370.png"></img></center>
-          <p><p>
-        </h6><a class="button button-primary" href="hillary.html">See prototype.</a>
-    </div>
-    </div>
-    </div>
-
-    <div class="section seamket">
-        <div class="container">
-          <center><h4 class="seamket-heading">
-          Designing A Big Data Platform</h4>
-         <img src="images/seamket-logo-transparent.png"></img><p>
-                <a class="button button-primary" href="seamket.html">See pitchdeck.</a></center>
-          <div class="row">
-            <div class="one-third column value">
-            <h2 class="seamket-multiplier">Won $5000 </h2>
-            <h5 class="seamket-heading">Awarded DataHack14.</h5>
-            <p class="seamket-description">SEAMKet is a B2B mobile ad platform subsidizing international calling.</p>
+		<!-- spacer section:stats -->
+		<section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+			<div class="container">
+            <div class="align-center pad-top40 pad-bot40">
+                <blockquote class="bigquote color-white">WORK?</blockquote>
+				              <p class="color-white">Professional and Personal.</p>
             </div>
+			</div>
+		</section>
 
-          <div class="one-third column value">
-            <h2 class="seamket-multiplier">1st Place</h2>
-            <h5 class="seamket-heading">Best App in the U.S.</h5>
-            <p class="seamket-description">Beat out the competition from the UK and Silicon Valley.</p>
+		<!-- section works -->
+		<section id="section-works" class="section appear clearfix">
+			<div class="container">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>
+							<p>My current work spans a wide range from Artificial Intelligence (AI), data science, Virtual Reality (VR), Augmented Reality (AR) experiences and applications.
+              <p>My past work includes development and design of mobile and responsive web applications and experiences.
+              <p>I enjoy working on both paid and passion projects in design of all kinds: interactive, visual, print/graphic and infographic design.</p>
+						</div>
+					</div>
+				</div>
+
+      <div class="row">
+          <nav id="filter" class="col-md-12 text-center">
+            <ul>
+            <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".web" >web </a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".mobile" >mobile </a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".DSAI">data science / AI</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".design">design</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".AR" >AR </a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".VR" >VR </a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".community">community </a></li>
+            </ul>
+          </nav>
+
+<div class="col-md-12">
+      <div class="row">
+          <div class="portfolio-items isotopeWrapper clearfix" id="3">
+                <article class="col-md-4 isotopeItem AR">
+                  <div class="portfolio-item">
+                      <img src="img/portfolio/erin-meta2-16-2.png" alt="" />
+                      <div class="portfolio-desc align-center">
+                        <div class="folio-info"><h5><a href="#">Augmented Reality</a></h5>
+                          <a href="img/portfolio/erin-meta2-16-2.png" class="fancybox"><i class="fa fa-simplybuilt fa-2x fa-rotate-180"></i></a>
+                      </div>
+                  </div>
           </div>
+                </article>
 
-          <div class="one-third column value">
-            <h2 class="seamket-multiplier">1 of 3</h2>
-            <h5 class="seamket-heading">Winners selected.</h5>
-            <p class="seamket-description">Offered to join incubator program, seed funding, and office space.</p>
-          </div>
+                <article class="col-md-4 isotopeItem VR">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/embody-me-fbx.jpg" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Virtual Reality</a></h5>
+                      <a href="img/portfolio/embody-me-fbx.jpg" class="fancybox"><i class="fa fa-simplybuilt fa-2x fa-rotate-180"></i></a>
+                  </div>
+                </div>
+                </div>
+                </article>
 
+                <article class="col-md-4 isotopeItem mobile">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/hfa-show-rz.png" alt="" /><center>Hillary for American iOS native prototype.</center>
+                   <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="https://medium.com/@erinjerri/hillary-s-campaign-mobile-fundraising-needs-a-makeover-a-new-way-to-give-210f558d4f81">Hillary for America</a></h5>
+                      <a href="img/portfolio/hfa-show-rz.png" class="fancybox"></a>
+                     </div>
+                   </div>
+                </div>
+                </article>
+
+                <article class="col-md-4 isotopeItem DSAI">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/SEAMKet_logo-270.png" alt="" /><center>DataHack14 Winner: 1st Place in the U.S.</center>
+                   <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="http://www.tatacommunications.com/datahack14/winners.html">SEAMKet</a></h5>
+                      <a href="img/portfolio/SEAMKet_logo-270.png" class="fancybox"></a>
+                     </div>
+                   </div>
+                </div>
+                </article>
+
+                <article class="col-md-4 isotopeItem web">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/turtle-logo-green.svg" alt="" /><center>Precursor to Linux - Rebrand</center>
+                   <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="https://bsd.slashdot.org/story/16/10/09/0230203/after-22-years-386bsd-gets-an-update">Telemuse: 396BSD</a></h5>
+                      <a href="img/portfolio/turtle-logo-green.svg" class="fancybox">Branding</a>
+                     </div>
+                   </div>
+                </div>
+                </article>
+              </article>
+
+              <article class="col-md-4 isotopeItem community">
+          			<div class="portfolio-item">
+          				<img src="img/portfolio/arvr-logolg-rz.png" alt="" />
+          				 <div class="portfolio-desc align-center">
+          					<div class="folio-info">
+          						<h5><a href="http://www.arvracademy.io">ARVR Academy Co-Founder</a></h5>
+          						<a href="img/portfolio/arvr-logolg-rz.png" class="fancybox"><i class="fa fa-simplybuilt fa-5x mar-bot20 fa-rotate-180"></i></a>
+          					 </div>
+          				 </div>
+          			</div>
+              </article>
+
+                <article class="col-md-4 isotopeItem community">
+									<div class="portfolio-item">
+										<img src="img/portfolio/faster-logo-normal.png" alt=""/><center>Filipino Americans in Silicon Valley Tech (FASTER)</center>
+										 <div class="portfolio-desc align-center">
+											<div class="folio-info">
+												<h5><a href="http://www.fastersv.org">FASTER Co-Founder</a></h5>
+												<a href="img/portfolio/faster-logo-normal.png" class="fancybox"></a>
+											 </div>
+										 </div>
+									</div>
+                                </article>
+
+</div>
+
+
+</div>
         </div>
 
-      </div>
-    </div>
-  </div>
-
-<div class="section R4C">
-  <div class="container">
-      <h4 class="r4c-heading">Designing the Political Fundraising Experience</h4>
-      <p class="r4c-description">Print & Digital Collateral
-       <center><img src="images/r4c-fund-design-350.png"></img><p>
-
-      <center><a class="button button-primary" href="http://www.erinjerri.com/r4c.html">See More.</a></center>
 </div>
-</div>
+		<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">
+            <div class="align-center pad-top40 pad-bot40">
+                <blockquote class="bigquote color-white">Media</blockquote>
+				<p class="color-white">Speaking, publications, and more.</p>
+            </div>
+		</section>
 
-<footer>
-  <div class="container">
-  <div class="row">
-  <div class="twelve columns">
-  <div class="erinjerri"></div>
-  <div class="footer-text">
-      <h5 class="section-heading">Contact</h5>
-      <p class="section-description"></p>
-      <center><img src="images/erin-100.png"></img></center>
-<a href="http://www.github.com/erinjerri">      
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="32px" height="25px" viewBox="0 0 32 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <title>XMLID_1_</title>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="5151e0c8492e5103c096af88a5006e1e" sketch:type="MSLayerGroup" fill="#00CBF2">
-            <path d="M0.435125,12.9819265 C1.847,12.6294356 3.7666875,12.1493455 7.13,12.0600512 C7.0370625,11.8742139 6.953125,11.6818155 6.8788125,11.4834183 C5.5700625,11.4720456 1.5394375,11.6578828 0.15875,11.9989386 C0.1509375,12.0013756 0.1425625,12.001938 0.1341875,12.001938 C0.088,12.001938 0.0454375,11.9701944 0.0340625,11.9234539 C0.020875,11.8689025 0.0544375,11.8126014 0.1095625,11.7987917 C1.4776875,11.4607354 5.411125,11.273086 6.8044375,11.2767102 C6.490875,10.3548349 6.352375,9.29867438 6.352375,8.11966378 C6.352375,6.02533904 7.0046875,5.23531196 7.881125,4.11922608 C7.210875,1.73239823 8.1215625,0.100854521 8.1215625,0.100854521 C8.1215625,0.100854521 9.529875,-0.191023712 12.1923125,1.71502676 C13.635375,1.09702725 17.48275,1.0455377 19.3029375,1.57780462 C20.4204375,0.839329572 22.463625,-0.208395185 23.2885625,0.0846703075 C23.5115625,0.444284787 23.9924375,1.49144716 23.5799375,3.79316729 C23.8605,4.2978773 25.315,5.37322145 25.3209375,8.41272927 C25.2969375,9.53362667 25.180625,10.4800595 24.9648125,11.2808344 C28.4360625,11.2514654 30.4780625,11.5379697 31.8845,11.7969171 C31.9396875,11.8082898 31.976875,11.861654 31.96725,11.9173926 C31.9576875,11.9665702 31.9145,12.001938 31.8665625,12.001938 C31.859375,12.001938 31.853375,12.0013756 31.8461875,12.0007507 C30.4420625,11.740616 28.3965625,11.455299 24.904875,11.4870425 C24.8436875,11.6902513 24.775375,11.8832746 24.701,12.0672997 C25.8893125,12.1068542 29.1530625,12.2339534 31.8149375,13.0479131 C31.870125,13.0647222 31.9000625,13.1222105 31.8833125,13.1773868 C31.870125,13.2211279 31.829375,13.2498721 31.785,13.2498721 C31.7754375,13.2498721 31.764625,13.2486848 31.7550625,13.245123 C29.056,12.420353 25.7214375,12.3070635 24.612375,12.270446 C23.647125,14.390578 21.6675,15.1817298 18.46725,15.510788 C19.5044375,16.1635304 19.8018125,16.9822392 19.8018125,19.1977268 C19.8018125,21.4130895 19.771875,21.7104041 19.7790625,22.2198007 C19.789875,23.0560684 21.01525,23.4563621 20.96975,23.725495 C20.9241875,23.9941279 19.9445625,23.9508867 19.4865625,23.7909192 C18.1891875,23.3390109 18.318625,22.25998 18.318625,22.25998 L18.2755,19.2978315 C18.2755,19.2978315 18.36425,17.7034053 17.7755,17.7034053 L17.7755,22.5519208 C17.7755,23.6056443 18.5129375,23.9257668 18.5129375,24.3153752 C18.5129375,24.9849267 17.16525,24.2518881 16.7503125,23.8340354 C16.1169375,23.1986644 16.1889375,21.851313 16.2045,20.7855919 C16.218875,19.7563634 16.1949375,17.5056329 16.1949375,17.5056329 L15.765125,17.5146936 C15.765125,17.5146936 15.941375,22.4315702 15.5385,23.3275758 C15.0175625,24.4778422 13.4461875,24.8735119 13.4461875,24.3495558 C13.4461875,23.9970648 13.8334375,24.1092296 14.0475,23.319265 C14.2303125,22.6472764 14.168,17.6344818 14.168,17.6344818 C14.168,17.6344818 13.6644375,17.9324213 13.6644375,18.8710432 C13.6644375,19.3007684 13.6524375,21.7553325 13.6524375,22.4860591 C13.6524375,23.4049351 12.34725,23.9281413 11.720125,23.9281413 C11.402375,23.9281413 11.0073125,23.9126445 11.0073125,23.7442412 C11.0073125,23.319265 12.201,23.0698156 12.201,22.1857451 C12.201,21.4191508 12.1841875,19.4471762 12.1841875,19.4471762 C12.1841875,19.4471762 11.58225,19.5501553 10.72375,19.5501553 C8.5595,19.5501553 7.8748125,18.1691857 7.54925,17.3965301 C7.125375,16.3901719 6.575625,15.917268 5.9916875,15.5395946 C5.6331875,15.3076417 5.5504375,15.0336974 5.9653125,14.9557757 C7.881375,14.5949739 8.3711875,17.1280221 9.6505625,17.5313777 C10.563625,17.8197566 11.7375,17.695032 12.3214375,17.3174211 C12.3988125,16.5435158 12.956375,15.8746516 13.421,15.5222232 C10.1668125,15.2099116 8.2375,14.0800785 7.2375,12.2638223 C3.833375,12.3453682 1.90175,12.8284576 0.4856875,13.1820733 C0.3825625,13.2078806 0.281875,13.2330005 0.18475,13.2576205 C0.176375,13.2593701 0.1679375,13.259995 0.1595625,13.259995 C0.113375,13.259995 0.0714375,13.2288139 0.0594375,13.1820733 C0.045625,13.1269595 0.0798125,13.070596 0.135,13.0567863 C0.2325,13.0327912 0.332625,13.0082961 0.435125,12.9819265 L0.435125,12.9819265 Z" id="XMLID_1_" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg></a>
+		<!-- contact -->
+		<section id="section-contact" class="section appear clearfix">
+			<div class="container">
+
+				<div class="row mar-bot40">
+					<div class="col-md-offset-3 col-md-6">
+						<div class="section-header">
+							<h2 class="section-heading animated" data-animation="bounceInUp">Contact Me</h2>
+							<p>Send me an email at erinjerri16@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="cform" id="contact-form">
+							<div id="sendmessage">
+								 Your message has been sent. Thank you!
+							</div>
+                            <div id="errormessage"></div>
+							<form action="" method="post" role="form" class="contactForm">
+							  <div class="form-group">
+								<label for="name">Your Name</label>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="email">Your Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+								<div class="validation"></div>
+							  </div>
+
+							  <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+							</form>
+
+						</div>
+					</div>
+					<!-- ./span12 -->
+				</div>
+
+			</div>
+		</section>
+		<!-- map -->
+		<section id="section-map" class="clearfix">
+            <div id="google-map" data-latitude="37.417409" data-longitude="-122.131736"></div>
+		</section>
+
+	<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+				<div class="col-sm-12 align-center">
+                    <ul class="social-network social-circle">
+                        <li><a href="http://www.github.com/erinjerri" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/erinjerri" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://www.twitter.com/erinjerri" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 
 
-  <!-- linkedin –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<a href="http://www.linkedin.com/erinjerri">  
-<img src="images/linkedin-ico-blue.png"></img>
-</a>
 
-<center>
-  <p class="h_link"> Connect with me or shoot me a note at
-       <a href="mailto: erinjerri16@gmail.com">
-      erinjerri16@gmail.com</a>
-    </p></center>
-  <p class="section-description">Professional photography by <a href="http://www.lioneltan.co/">Lionel Tan</a>.</p>
-  <p class="section-description">Hair and makeup by <a href="http://www.jerilyndee.com/">Jerilyn Malonzo</a>.</p>
-  <p class="section-description">Made with love in Silicon Valley. </p>
-  <p>© 2015 Erin Pangilinan. All rights reserved.</p>
-</footer>
+                    </ul>
+				</div>
+			</div>
 
-</div>
-</div>
-</div>
-</div>
-</div>
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Made with <i class="fa fa-heart" aria-hidden="true"></i> in Silicon Valley 2017 &copy; </p>
+                        <div class="credits">
+                          Professional photo by <a href="http://www.lioneltan.co">Lionel Tan</a>
+                          <p>
+                          Hair and makeup by <a href="http://www.jerilyndee.com">Jerilyn Malonzo</a>
+                        </div>
+                    </div>
+			</div>
+		</div>
 
-</body>
+	</section>
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+    <script src="js/main.js"></script>
+    <script src="contactform/contactform.js"></script>
+
+	</body>
 </html>
