@@ -8,7 +8,7 @@
 /* ==== Google font ==== */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* === fontawesome === */
-@import url('font-awesome.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
