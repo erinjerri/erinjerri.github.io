@@ -744,6 +744,8 @@ icon-boxes
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
