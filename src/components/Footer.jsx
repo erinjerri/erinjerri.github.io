@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-// eslint-disable-next-line
-import Icofont from 'react-icofont';
-// eslint-disable-next-line
+// import Icofont from 'react-icofont';
 import { Link } from 'react-router-dom';
 
 class Footer extends Component {

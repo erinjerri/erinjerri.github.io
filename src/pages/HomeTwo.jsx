@@ -7,8 +7,7 @@ import Feature from "../components/Feature";
 import Services from "../components/Services";
 import WelcomeServices from "../components/WelcomeServices";
 // import Works from "../components/Works";
-// eslint-disable-next-line
-import About from "../components/About";
+// import About from "../components/About";
 // import Team from "../components/Team";
 import Blog from "../components/Blog";
 import VideoArea from "../components/VideoArea";
@@ -16,8 +15,7 @@ import VideoArea from "../components/VideoArea";
 // import FunFacts from "../components/FunFacts";
 // import Testimonials from "../components/Testimonials";
 // import FAQ from "../components/FAQ";
-// eslint-disable-next-line
-import Partner from "../components/Partner";
+// import Partner from "../components/Partner";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 

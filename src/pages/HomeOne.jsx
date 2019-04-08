@@ -13,10 +13,8 @@ import VideoArea from "../components/VideoArea";
 // import Pricing from "../components/Pricing";
 // import FunFacts from "../components/FunFacts";
 // import Testimonials from "../components/Testimonials";
-// eslint-disable-next-line
-import FAQ from "../components/FAQ";
-// eslint-disable-next-line
-import Partner from "../components/Partner";
+// import FAQ from "../components/FAQ";
+// import Partner from "../components/Partner";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
